@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyBlog - Modern Stories</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to MyBlog</h1>
+        <p class="hero-subtitle">Discover amazing stories, insights, and ideas that inspire</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Latest Stories</h2>
+        <p>Explore our collection of carefully crafted articles and insights</p>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Card 1 - Technology -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Technology and Innovation">
+            <div class="card-body">
+              <div class="card-meta">
+                <span><i class="bi bi-calendar"></i> Dec 15, 2024</span>
+                <span><i class="bi bi-clock"></i> 5 min read</span>
+              </div>
+              <h5 class="card-title">The Future of Technology</h5>
+              <p class="card-text">Exploring the latest innovations and trends shaping our digital world. From AI to quantum computing, discover what's next.</p>
+              <a href="#" class="btn btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 2 - Nature -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Forest and Nature">
+            <div class="card-body">
+              <div class="card-meta">
+                <span><i class="bi bi-calendar"></i> Dec 12, 2024</span>
+                <span><i class="bi bi-clock"></i> 3 min read</span>
+              </div>
+              <h5 class="card-title">Nature's Hidden Wonders</h5>
+              <p class="card-text">Journey into the heart of untouched wilderness and discover the breathtaking beauty that surrounds us in the natural world.</p>
+              <a href="#" class="btn btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 3 - Travel -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Travel and Adventure">
+            <div class="card-body">
+              <div class="card-meta">
+                <span><i class="bi bi-calendar"></i> Dec 10, 2024</span>
+                <span><i class="bi bi-clock"></i> 7 min read</span>
+              </div>
+              <h5 class="card-title">Adventures Await</h5>
+              <p class="card-text">Embark on extraordinary journeys to incredible destinations. Tips, stories, and inspiration for your next great adventure.</p>
+              <a href="#" class="btn btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 4 - Coffee/Lifestyle -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Coffee and Lifestyle">
+            <div class="card-body">
+              <div class="card-meta">
+                <span><i class="bi bi-calendar"></i> Dec 8, 2024</span>
+                <span><i class="bi bi-clock"></i> 4 min read</span>
+              </div>
+              <h5 class="card-title">The Art of Slow Living</h5>
+              <p class="card-text">Discover the beauty in life's simple moments. Learn how to embrace mindfulness and create meaningful daily rituals.</p>
+              <a href="#" class="btn btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 5 - Architecture -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Modern Architecture">
+            <div class="card-body">
+              <div class="card-meta">
+                <span><i class="bi bi-calendar"></i> Dec 5, 2024</span>
+                <span><i class="bi bi-clock"></i> 6 min read</span>
+              </div>
+              <h5 class="card-title">Modern Architecture</h5>
+              <p class="card-text">Exploring contemporary design principles and how architecture shapes our urban experiences in the modern world.</p>
+              <a href="#" class="btn btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 6 - Creative -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Creative Process">
+            <div class="card-body">
+              <div class="card-meta">
+                <span><i class="bi bi-calendar"></i> Dec 3, 2024</span>
+                <span><i class="bi bi-clock"></i> 5 min read</span>
+              </div>
+              <h5 class="card-title">Unleash Your Creativity</h5>
+              <p class="card-text">Practical tips and inspiration to overcome creative blocks and develop your artistic vision in any medium.</p>
+              <a href="#" class="btn btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <h5 class="mb-3">MyBlog</h5>
+        <p class="mb-3">Sharing stories that matter, one post at a time.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 MyBlog. Made with ❤️ for storytellers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
